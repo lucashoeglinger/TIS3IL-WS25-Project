@@ -5,3 +5,5 @@ ENV/
 env/
 # PyTorch Lightning logs
 lightning_logs/
+
+src/data/data.csv
