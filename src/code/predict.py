@@ -16,10 +16,25 @@ def predict_neural(enc_length, model_paths="../ckpt"):
 
 def predict_stats(enc_length, path_to_pkl="../pkl"):
 
+    """
+    This Function is used to make predictions rom the statsmodels of the Weather pred system.
+
+    -----Params------
+    enc_length `int`: The values to predict into the future
+    path_to_pkl `os.Path`: Path to all `.pkl` files.
+    """
+
     return None
 
 def predict_ml(enc_length, path_to_pkl="../pkl"):
+    """
+    This Function is used to make predictions rom the Machine learning models of the Weather pred system.
 
+    -----Params------
+    enc_length `int`: The values to predict into the future
+    path_to_pkl `os.Path`: Path to all `.pkl` files.
+    """
+        
     return None
 
 
