@@ -3369,7 +3369,7 @@ wheels = [
 [[package]]
 name = "tis3il-ws25-project"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "fastparquet" },
     { name = "import-ipynb" },
@@ -3377,14 +3377,17 @@ dependencies = [
     { name = "jupyter" },
     { name = "matplotlib" },
     { name = "meteostat" },
+    { name = "mlforecast" },
     { name = "nbconvert" },
     { name = "nbformat" },
+    { name = "neuralforecast" },
     { name = "numpy" },
     { name = "pandas" },
     { name = "pathlib" },
     { name = "plotly" },
     { name = "scikit-learn" },
     { name = "seaborn" },
+    { name = "statsmodels" },
 ]
 
 [package.dev-dependencies]
@@ -3414,14 +3417,17 @@ requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.10.7" },
     { name = "meteostat", specifier = "==1.7.6" },
+    { name = "mlforecast", specifier = ">=1.0.2" },
     { name = "nbconvert", specifier = ">=7.16.6" },
     { name = "nbformat", specifier = ">=5.10.4" },
+    { name = "neuralforecast", specifier = ">=3.1.2" },
     { name = "numpy", specifier = ">=2.3.5" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pathlib", specifier = ">=1.0.1" },
     { name = "plotly", specifier = ">=6.5.0" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
+    { name = "statsmodels", specifier = ">=0.14.5" },
 ]
 
 [package.metadata.requires-dev]
