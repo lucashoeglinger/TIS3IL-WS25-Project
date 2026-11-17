@@ -46,4 +46,4 @@ requires = ["uv_build>=0.6.0,<0.7"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-module-name = "smn-weather_prediction"
+module-name = "smn_weather_prediction"
