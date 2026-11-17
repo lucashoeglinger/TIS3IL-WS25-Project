@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python caches & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch Lightning logs
+lightning_logs/
+
+# Data & trained model artifacts
+**/data/data.csv
+**/data/models/pth/*
+!**/data/models/pth/.gitkeep
