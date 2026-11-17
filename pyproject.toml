@@ -1,5 +1,5 @@
 [project]
-name = "smn-krn-weather-forecasting"
+name = "tis3il-ws25-project"
 version = "0.1.0"
 description = "Time series forecasting project for TIS3IL WS25"
 readme = "README.md"
